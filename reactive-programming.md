@@ -20,7 +20,7 @@ var c = 2;
 console.log(a); // displays 15
 ```
   
-Reactive programming is the opposite. So what is reactive programming? Reactive programming (RP) is a style of programming based on code that automatically reacts to the changes. For example, in Reactive programming, the value of `a` would be automatically updated based on the new values.    
+Reactive programming is the opposite. So what is reactive programming? Reactive programming (RP) is a style of programming based on code that automatically reacts to changes. For example, in Reactive programming, the value of `a` would automatically be updated based on the new values.    
 
 ```
 var b = 10;
@@ -49,6 +49,6 @@ Reactive programming is like a modern spreadsheet program. In a spreadsheet prog
 
 - Object-oriented reactive programming (OORP) is a combination of object oriented programming and reactive programming.
 
-- Has similarities with the observer pattern commonly used in object-oriented programming. For example, the observer pattern commonly describes data-flows between whole objects/classes, whereas object-oriented reactive programming could target the members of objects/classes.
+- Reactive programming has similarities with the observer pattern commonly used in object-oriented programming. For example, the observer pattern commonly describes data-flows between whole objects/classes, whereas object-oriented reactive programming could target the members of objects/classes.
 
 - Reactive programs are not necessarily evaluated the same way stack based programming languages are. All data, that is taken partially or completely from the data that was changed, reacts to the change. The most natural way to achieve this is an invalidate/lazy-revalidate scheme. Keep in mind that most computations that would be evaluated and forgotten in a normal programming language need to be represented in memory as data-structures.
